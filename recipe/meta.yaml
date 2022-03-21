@@ -1,5 +1,5 @@
 {% set name = "pymirc" %}
-{% set version = "0.26.3" %}
+{% set version = "0.27" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymirc-{{ version }}.tar.gz
-  sha256: 6ebc1b934487119d3f0fb7d365f38192d2501744dd1974efd2ea4bb098f84a17
+  sha256: 2c1c552b0189059072abc0468df5116e9737cc8cc453e3077a02f53d398e094a
 
 build:
   number: 0
