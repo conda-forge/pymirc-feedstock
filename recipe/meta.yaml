@@ -16,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - setuptools >=61.0
     - wheel
     - setuptools-scm
     - pip
   run:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - numpy >=1.15
     - scipy >=1.1
     - matplotlib-base >=2.2.2
@@ -37,13 +37,13 @@ test:
   commands:
     - pip check
   requires:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - pip
 
 about:
   home: https://github.com/gschramm/pymirc
   summary: Python imaging utilities developed in the medical imaging research center of KU Leuven
-  license: LGPL-3.0
+  license: LGPL-3.0-or-later
   license_file: LICENSE
 
 extra:
