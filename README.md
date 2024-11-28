@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymirc-feedstoc
 
 Home: https://github.com/gschramm/pymirc
 
-Package license: LGPL-3.0
+Package license: LGPL-3.0-or-later
 
 Summary: Python imaging utilities developed in the medical imaging research center of KU Leuven
 
