@@ -145,6 +145,3 @@ Feedstock Maintainers
 
 * [@gschramm](https://github.com/gschramm/)
 
-
-<!-- dummy commit to enable rerendering -->
-
