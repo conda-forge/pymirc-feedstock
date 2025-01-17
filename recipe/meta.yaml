@@ -34,6 +34,10 @@ requirements:
 test:
   imports:
     - pymirc
+    - pymirc.fileio
+    - pymirc.viewer
+    - pymirc.metrics
+    - pymirc.image_operations
   commands:
     - pip check
   requires:
